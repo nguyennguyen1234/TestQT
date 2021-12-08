@@ -1,4 +1,3 @@
-#include <QCoreApplication>
 #include <QtGlobal>
 
 int testQt() {
@@ -8,7 +7,7 @@ int testQt() {
 
 int main(int argc, char *argv[])
 {
-    //QCoreApplication a(argc, argv);
+    QCoreApplication a(argc, argv);
 
     return a.exec();
 }
