@@ -1,7 +1,7 @@
 #include <QtGlobal>
 
 qreal testQt() {
-    qreal a;
+    qreal a = 5;
     return a;
 }
 
