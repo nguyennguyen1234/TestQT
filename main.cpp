@@ -1,8 +1,8 @@
 #include <QtGlobal>
 
-qint32 testQt() {
-    quint32 a;
-    return a+5;
+qreal testQt() {
+    qreal a;
+    return a;
 }
 
 int main(int argc, char *argv[])
