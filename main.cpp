@@ -1,7 +1,7 @@
 #include <QtGlobal>
 
-qint8 testQt() {
-    qint8 a = 'A';
+qint16 testQt() {
+    qint16 a = 6;
     return a;
 }
 
