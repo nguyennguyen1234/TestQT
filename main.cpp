@@ -1,7 +1,7 @@
 #include <QtGlobal>
 
-qreal testQt() {
-    qreal a = 5;
+qint8 testQt() {
+    qint8 a = 'A';
     return a;
 }
 
