@@ -6,7 +6,20 @@ qint16 testQt() {
 }
 
 int count(int a, int b) {
-    return a+b;
+    if(a>3) {
+        return 1;
+    } else 
+    {
+        return 3;
+    }
+     
+  if(b>7) {
+        return 1;
+    } else 
+    {
+        return 3;
+    }
+     
 }
 int main(int argc, char *argv[])
 {
