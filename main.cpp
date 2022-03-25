@@ -9,8 +9,9 @@ class Geeks
     string geekname;
  
     // Member Functions()
-    void printname()
+    void printname( int a)
     {
+        cout<< a;
        cout << "Geekname is: " << geekname;
     }
 };
