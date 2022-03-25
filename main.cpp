@@ -1,5 +1,20 @@
 #include <QtGlobal>
 
+class Geeks
+{
+    // Access specifier
+    public:
+ 
+    // Data Members
+    string geekname;
+ 
+    // Member Functions()
+    void printname()
+    {
+       cout << "Geekname is: " << geekname;
+    }
+};
+
 qint16 testQt() {
     qint16 a = 6;
     return a;
